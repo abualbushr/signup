@@ -1,0 +1,54 @@
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    width: 50%;
+    height: 500px;
+    margin: 10px 25%;
+    padding: auto;
+    font-size: larger;
+    background: #ccc;
+    min-width: 160px;
+}
+h2{
+    text-align: center;
+    color: rgb(27, 29, 28);
+    background: #ccc;
+    width: 50%;
+    margin: 20px 25%;
+    box-sizing: border-box;
+    line-height: 1.6em;
+    min-width: 160px;
+}
+form label, input, select, button{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    /* padding-left: 10px; */
+
+}
+form input{
+    
+    padding-left: 10px;
+
+}
+label{
+    text-align: center;
+}
+button{
+    height: 35px;
+    width: 80%;
+    background: rgba(133, 237, 120, 0.408);
+    
+
+    
+}
+button:hover{
+    background: #fe7777;
+    border-radius: 20px;
+}
