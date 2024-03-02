@@ -10,3 +10,8 @@ Car1 = Car("Honda", 2024)
 Car2 = Car("BMW", 2023)
 Car1.Info()
 Car2.Info()
+
+list = [1, 2]
+list.extend([3, 4])
+a, b, c, d = list
+print(a, b, c, d)
